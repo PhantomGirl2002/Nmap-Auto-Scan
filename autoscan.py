@@ -84,7 +84,7 @@ def main():
                 f.write("Geen open poorten gevonden.\n")
         print(f"\n[!] Resultaten tevens opgeslagen in: {output_file}")
     except Exception as e:
-        print(f"\n[!] Kon output bestand niet aanmaken (OPSEC pad niet bereikbaar): {e}")
+        print(f"\n[!] Kon output bestand niet aanmaken: {e}")
 
 if __name__ == '__main__':
     main()
